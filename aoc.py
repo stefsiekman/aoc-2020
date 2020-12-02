@@ -39,4 +39,5 @@ def parse_input(day=datetime.datetime.today().day):
 
 
 def copy_answer(answer):
+    print("Answer:", answer)
     pyperclip.copy(str(answer))
